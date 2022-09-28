@@ -1,15 +1,20 @@
 import React from 'react';
-import './App.css';
+import { Route, Routes } from 'react-router';
+// import './App.css';
 import Home from './components/Home';
-
-// import loginbanner from '../src/image/loginbanner.png'
+import Signup from './components/Signup';
 function App() {
   return (
     <>
-      <div>
+      {/* <div>
        <Home/>
-       
-      </div>
+      </div> */}
+
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+      </Routes>
+
 
 
       {/* <div class="loader-wrapper">

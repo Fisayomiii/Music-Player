@@ -1,13 +1,17 @@
-import React from 'react'
-import logo from '../image/logo.png'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../image/logo.png';
 import './Home.css';
+
+// import Signup from './Signup';
+// import Signup from './components/Signup';
 function Home() {
   return (
     <>
       <body class="container full-height-grow">
         <header class="main-header">
           <a href="/" class="brand-logo">
-            <img src={logo} alt={logo}/>
+            <img src={logo} alt={logo} />
             <div class="brand-logo-name"></div>
           </a>
           <nav class="main-nav">
@@ -25,7 +29,7 @@ function Home() {
           <div class="call-to-action">
             <h1 class="title">Feel The Music</h1>
             <span class="subtitle">A dozen songs in your pocket .</span>
-            <a href="join.html" class="btn">Join Now</a>
+            <Link to={"./signup"} class="btn">Join Now</Link>
           </div>
         </section>
         <div class="home-main-circle-1"></div>
