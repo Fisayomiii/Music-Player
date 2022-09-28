@@ -17,7 +17,7 @@ function Home() {
           <nav class="main-nav">
             <ul>
               <li><a href="discover.html">Discover</a></li>
-              <li><a href="join1.html">Join</a></li>
+              <li><Link to={"./signup"} className="btn">Join</Link></li>
             </ul>
           </nav>
         </header>

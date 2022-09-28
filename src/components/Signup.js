@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../image/logo.png'
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Home.css';
 function Signup() {
     return (
@@ -15,14 +15,14 @@ function Signup() {
                     <nav className="main-nav">
                         <ul>
                             <li><a href="discover.html">Discover</a></li>
-                            <li><a href="join1.html">Join</a></li>
+                            <li><Link to={"./signup"} className="btn">Join</Link></li>
                         </ul>
                     </nav>
                 </header>
 
                 <section className="home-main-section">
                     <div className="img-wrapper">
-                        <div className="human-person"></div>
+                        <div className="human-personSignupimg"></div>
                     </div>
                     <div className="call-to-action">
                         <div className='formik'>

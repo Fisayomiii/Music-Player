@@ -100,7 +100,7 @@ body {
 .home-main-section {
     padding-left: -9em;
     display: flex;
-    gap: 200px;
+    gap: -100px;
     flex-grow: 1;
 }
 
@@ -117,6 +117,15 @@ body {
     flex-grow: 1;
     max-height: 70vh;
     min-width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.home-main-section .human-personSignupimg {
+    background-image: url(../image/istockphoto-1129342275-170667a-removebg-preview.png);
+    flex-grow: 1;
+    max-height: 70vh;
+    min-width: 50vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom left;
