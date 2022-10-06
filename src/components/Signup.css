@@ -3,19 +3,20 @@
 * {
     margin: 0;
     padding: 0;
-    background: #2F303A;
+    box-sizing: border-box;
+    background: #252936;
     color: #fff;
     font-family: "Poppins", sans-serif;
 }
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    background-color: #252936;
+/* ::-webkit-scrollbar{
+    background: #2c2e36;
+    width: 5px;
 }
-
+::-webkit-scrollbar-thumb{
+    background: #2c4350;
+} */
 body {
+    background: #252936;
     color: #ffffff;
     line-height: 1.7em;
 }
@@ -64,10 +65,39 @@ body {
 		transform: none;
 	}
 }
-
 .fadeInDown {
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
 }
 
 .header {
@@ -97,25 +127,6 @@ body {
     text-decoration: underline;
     color: #c2c2c2;
 }
-
-
-/* @media (max-width: 900px) {
-    .main-header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 90px;
-    }
-
-    .home-main-section .img-wrapper {
-        display: none;
-    }
-
-    .home-main-section {
-        text-align: center;
-        justify-content: center;
-    }
-} */
 
 .formik {
     padding-left: -5em;
@@ -159,7 +170,7 @@ body {
     position: relative;
     z-index: 5;
     color: #fff;
-    background: #1762A7;
+    background: #fe2c55;
     border: none;
     display: inline-block;
     width: 50%;
@@ -180,7 +191,7 @@ body {
 .else a {
     text-decoration: none;
     z-index: 9;
-    color: #1762A7;
+    color: #fe2c55;
 }
 
 .home-main-circle-1 {

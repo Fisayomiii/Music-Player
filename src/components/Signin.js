@@ -23,7 +23,7 @@ function Signin() {
                         <button>Sign in</button><br />
                         <p className='else'>Don't have an account yet ? <a href="./Signup">Sign up</a></p>
                     </div>
-                </div>
+                </div><br />
                 <div className="home-main-circle-1"></div>
                 <div className="home-main-circle-2"></div>
                 <div className="home-main-circle-3"></div>

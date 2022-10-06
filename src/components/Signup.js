@@ -26,6 +26,7 @@ function Signup() {
                         <p className='else'>Already have an account? <a href="./Signin">Sign In</a></p>
                     </div>
                 </div>
+                <br />
                 <div className="home-main-circle-1"></div>
                 <div className="home-main-circle-2"></div>
                 <div className="home-main-circle-3"></div>

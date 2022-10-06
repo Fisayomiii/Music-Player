@@ -1,29 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
 * {
     margin: 0;
     padding: 0;
-    background: #2F303A;
+    box-sizing: border-box;
+    background: #252936;
     color: #fff;
     font-family: "Poppins", sans-serif;
 }
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    background-color: #252936;
+::-webkit-scrollbar{
+    background: #2c2e36;
+    width: 5px;
 }
-
-body {
-    color: #ffffff;
-    line-height: 1.7em;
+::-webkit-scrollbar-thumb{
+    background: #2c4350;
 }
-
 .full-height-grow {
     display: flex;
     flex-direction: column;
 }
-
 .brand-logo {
     display: flex;
     align-items: center;
@@ -31,29 +25,24 @@ body {
     color: inherit;
     text-decoration: none;
 }
-
 .brand-logo-name {
     margin-left: 1rem;
 }
-
 .main-nav ul {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 .main-nav a {
     color: inherit;
     text-decoration: none;
     padding: 1rem;
     transition: 0.5s;
 }
-
 .main-nav a:hover {
     color: #adadad;
 }
-
 .main-header {
     display: flex;
     gap: 500px;
@@ -61,7 +50,6 @@ body {
     align-items: center;
     height: 140px;
 }
-
 .container {
     display: flex;
     justify-content: center;
@@ -92,7 +80,7 @@ body {
 }
 .headerbtn{
     color: #ffffff;
-    background-color: #1762A7;
+    background-color: #fe2c55;
     padding: .75rem 1.5rem;
     border-radius: .5rem;
     text-decoration: none;
@@ -113,11 +101,8 @@ body {
     position: absolute;
     bottom: -60px;
     background-image: url(../image/landing-page-girl.png);
-    /* flex-grow: 1; */
     width: 100%;
     height: 60vh;
-    /* max-height: 70vh;
-    min-width: 30vw; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom ;
@@ -149,7 +134,7 @@ body {
 
 .btn {
     color: #ffffff;
-    background-color: #34b929;
+    background-color: #fe2c55;
     padding: .75rem 1.5rem;
     border-radius: .5rem;
     text-decoration: none;
