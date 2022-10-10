@@ -10,27 +10,27 @@ function Main() {
   return (
     <>
       <main>
-        <div class="left">
-          <div class="accounts">
-            <div class="user active">
+        <div className="left">
+          <div className="accounts">
+            <div className="user active">
               <img src={musicnote} alt="avatar" />
-              {/* <h6 class="username">Cheshire_Cat</h6> */}
+              {/* <h6 className="username">Cheshire_Cat</h6> */}
             </div>
-            <div class="user">
+            <div className="user">
               <img src={clock} alt="avatar" />
-              {/* <h6 class="username">Frank</h6> */}
+              {/* <h6 className="username">Frank</h6> */}
             </div>
-            <div class="user">
+            <div className="user">
               <img src={deezer} alt="avatar" />
-              {/* <h6 class="username">Pirate</h6> */}
+              {/* <h6 className="username">Pirate</h6> */}
             </div>
-            <div class="user">
+            <div className="user">
               <img src={nowplaying} alt="avatar" />
-              {/* <h6 class="username">Gypsy</h6> */}
+              {/* <h6 className="username">Gypsy</h6> */}
             </div>
-            <div class="user">
+            <div className="user">
               <img src={add} alt="avatar" />
-              {/* <h6 class="username">Pirate</h6> */}
+              {/* <h6 className="username">Pirate</h6> */}
             </div>
           </div>
         </div>
@@ -39,10 +39,10 @@ function Main() {
         <div className="home-main-circle-2"></div>
         <div className="home-main-circle-3"></div>
 
-        <div class="right">
-          <div class="post">
-            <div class="post-info">
-              <div class="info">
+        <div className="right">
+          <div className="post">
+            <div className="post-info">
+              <div className="info">
                 <div>
                   <h1>My Music</h1>
                 </div>
@@ -50,236 +50,236 @@ function Main() {
               {/* <button>Follow</button> */}
             </div>
 
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Juice WRLD - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
-            </div><div class="music-info cover">
-              <div class="infopart">
-                <div>
-                  <h4>Asake - Terminator</h4>
-                </div>
-              </div>
-              <button>Play</button>
-            </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            </div><div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
-                <div>
-                  <h4>Asake - Terminator</h4>
-                </div>
-              </div>
-              <button>Play</button>
-            </div><div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
+                <div>
+                  <h4>Asake - Terminator</h4>
+                </div>
+              </div>
+              <button>Play</button>
+            </div><div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
-                <div>
-                  <h4>Asake - Terminator</h4>
-                </div>
-              </div>
-              <button>Play</button>
-            </div><div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
-            </div><div class="music-info cover">
-              <div class="infopart">
-                <div>
-                  <h4>Asake - Terminator</h4>
-                </div>
-              </div>
-              <button>Play</button>
-            </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            </div><div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
+                <div>
+                  <h4>Asake - Terminator</h4>
+                </div>
+              </div>
+              <button>Play</button>
+            </div><div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
+                <div>
+                  <h4>Asake - Terminator</h4>
+                </div>
+              </div>
+              <button>Play</button>
+            </div>
+            <div className="music-info cover">
+              <div className="infopart">
+                <div>
+                  <h4>Asake - Terminator</h4>
+                </div>
+              </div>
+              <button>Play</button>
+            </div>
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
@@ -287,88 +287,88 @@ function Main() {
               <button>Play</button>
             </div>
 
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
               </div>
               <button>Play</button>
             </div>
-            <div class="music-info cover">
-              <div class="infopart">
+            <div className="music-info cover">
+              <div className="infopart">
                 <div>
                   <h4>Asake - Terminator</h4>
                 </div>
